@@ -6,7 +6,7 @@ export default function TextFeature({
   title,
   description,
   btnName,
-  btnURL = '#',
+  btnURL
 }) {
   return (
     <Box sx={styles.card}>
@@ -26,7 +26,7 @@ export default function TextFeature({
       )}
 
       {btnName && (
-        <Link path={btnURL} variant="default">
+        <Link path='#' variant="default">
           <Button variant="primary" aria-label={btnName}>
             {btnName}
           </Button>

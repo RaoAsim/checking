@@ -7,6 +7,7 @@ import 'rc-drawer/assets/index.css';
 import 'typeface-dm-sans';
 import NProgress from 'nprogress';
 import Head from 'next/head'
+import '../styles/global.css';
 
 export default function CustomApp({ Component, pageProps }) {
   NProgress.configure({showSpinner : false})

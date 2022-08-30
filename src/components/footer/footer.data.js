@@ -48,7 +48,7 @@ export default {
       label: 'Marketing',
     },
     {
-      path: '/',
+      path: '/contact/contact',
       label: 'Contact',
     },
   ],

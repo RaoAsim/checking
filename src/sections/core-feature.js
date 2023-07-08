@@ -44,7 +44,7 @@ const styles = {
     textAlign: ["center", null, null, "left"],
     width: ["100%", "80%", null, 340, 400, 430, null, 485],
     pb: ["50px", "60px", null, 0],
-    mx: ["auto", null, null, 0],
+    mx: ["auto", null, null, 80],
     ".description": {
       pr: [0, null, 6, 7, 6],
     },
@@ -53,6 +53,7 @@ const styles = {
     display: "inline-flex",
     position: "relative",
     mr: "auto",
+    width: "50%",
     ml: ["auto", null, null, null, 7],
     "> img": {
       position: "relative",

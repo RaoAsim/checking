@@ -2,8 +2,8 @@
 # dependencies
 node_modules
 /node_modules
-/isca/node_modules/
-/isca/node_modules
+/icsa/node_modules/
+/icsa/node_modules
 /.pnp
 .pnp.js
 # testing

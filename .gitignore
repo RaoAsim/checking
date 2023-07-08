@@ -1,14 +1,13 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+# #now comment
 # dependencies
 node_modules
+isca/node_modules
 /.pnp
 .pnp.js
-
 # testing
 /coverage
 
-# next.js
+# next.jsdfjdnsdsad
 /.next/
 /out/
 

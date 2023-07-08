@@ -1,7 +1,8 @@
 # #now comment
 # dependencies
 node_modules
-isca/node_modules
+/node_modules
+/isca/node_modules/
 /.pnp
 .pnp.js
 # testing

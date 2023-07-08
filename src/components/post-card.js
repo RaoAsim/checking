@@ -1,6 +1,6 @@
 /** @jsx jsx */
-import { jsx, Image, Box, Heading, Text, Flex } from 'theme-ui';
-import Link from 'next/link'
+import { jsx, Image, Box, Heading, Text, Flex } from "theme-ui";
+import Link from "next/link";
 
 export default function PostCard({
   src,
@@ -9,7 +9,7 @@ export default function PostCard({
   title,
   authorName,
   date,
-  slug
+  slug,
 }) {
   return (
     <Box sx={styles.card}>
@@ -35,49 +35,50 @@ export default function PostCard({
 
 const styles = {
   card: {
-    backgroundColor: 'white',
-    boxShadow: '0px 4px 10px rgba(38,78,118,0.12)',
-    borderRadius: '7px',
-    m: '0 15px 40px',
-    transition: 'all 0.3s',
-    '&:hover': {
-      boxShadow: '0px 5px 20px rgba(38,78,118,0.15)',
+    backgroundColor: "white",
+    boxShadow: "0px 4px 10px rgba(38,78,118,0.12)",
+    borderRadius: "7px",
+    m: "0 15px 40px",
+    transition: "all 0.3s",
+    "&:hover": {
+      boxShadow: "0px 5px 20px rgba(38,78,118,0.15)",
     },
   },
 
   thumbnail: {
-    borderRadius: '7px 7px 0 0',
-    overflow: 'hidden',
-    display: 'flex',
+    borderRadius: "7px 7px 0 0",
+    ml: "30%",
+    overflow: "hidden",
+    display: "flex",
     img: {
-      width: '100%',
+      width: "59%",
     },
   },
   postContent: {
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-    padding: ['15px 20px', '25px 30px'],
+    flexDirection: "column",
+    justifyContent: "space-between",
+    padding: ["15px 20px", "25px 30px"],
   },
   title: {
     fontSize: [3, null, null, null, null, 4],
-    color: 'heading',
+    color: "heading",
     lineHeight: [1.4, 1.5],
     fontWeight: 700,
     mb: [3, 4, 5],
     pr: [0, null, null, null, 5],
   },
   postFooter: {
-    width: '100%',
-    justifyContent: 'space-between',
-    alignItem: 'center',
+    width: "100%",
+    justifyContent: "space-between",
+    alignItem: "center",
     name: {
-      fontSize: ['14px', null, 2],
+      fontSize: ["14px", null, 2],
       fontWeight: 500,
-      color: 'primary',
+      color: "primary",
       lineHeight: 1.4,
     },
     date: {
-      fontSize: ['14px', null, 2],
+      fontSize: ["14px", null, 2],
       fontWeight: 400,
       lineHeight: 1.5,
     },

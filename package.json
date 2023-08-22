@@ -10,6 +10,7 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
+    "@next/env": "^13.4.19",
     "@sanity/client": "^3.3.3",
     "@sanity/image-url": "^1.0.1",
     "dotenv": "^8.2.0",
